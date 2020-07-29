@@ -9,3 +9,53 @@ Text Domain: Swell
 */
 
 /* comum */
+
+.navbar .navbar-nav li a{
+    color: white !important;
+}
+
+.navbar .navbar-nav li a div{
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+    margin: auto;
+    width: 0%;
+    position: absolute;
+    width: 15px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.navbar .navbar-nav li:hover a div{
+    width: 50px;
+    height: 3px;
+    transition: width 1s, height 1s;
+}
+
+.navbar .navbar-nav li .navbar-brand{
+    margin-top: 4.5px;
+}
+
+.dropdown-menu li:hover {
+    visibility: visible;
+}
+  
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown .dropdown-menu a:hover {
+    background-color: #313131;
+}
+
+.dropdown .dropdown-menu {
+    background-color: #007bff;
+}
+
+.dropdown .dropdown-menu .dropdown-divider {
+    border: 1px solid #007bff !important;
+}
+
+.navbar .navbar-nav li{
+    padding-left: 25px !important;
+}
