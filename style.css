@@ -45,7 +45,7 @@ Text Domain: Swell
 }
 
 .dropdown .dropdown-menu a:hover {
-    background-color: #313131;
+    background-color: #313131; 
 }
 
 .dropdown .dropdown-menu {
@@ -58,4 +58,20 @@ Text Domain: Swell
 
 .navbar .navbar-nav li{
     padding-left: 25px !important;
+}
+
+.carousel-inner{
+    height: 500px !important;
+}
+
+.card-body img{
+    border-radius: 5px !important;
+}
+
+.box-texto .card:nth-child(n+2){
+    margin-top: 20px;
+}
+
+.box-texto .card:nth-child(1){
+    margin-top: -5px;
 }

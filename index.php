@@ -57,7 +57,125 @@
     </div>
 </div>
 
-<div class="container mt-2">
+
+<div id="carouselIndicators" class="carousel slide" data-ride="carousel" style="">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="container-fluid mt-2">
+<div class="row p-3 box-texto">
+    
+    <div class="card">
+            <h5 class="card-header">Featured</h5>
+                <div class="card-body row">
+                    <div class="col-md-6">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                        </p>
+                    </div>
+                <div class="col-md-6">
+                    <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="img-fluid mx-auto d-block" alt="">
+                </div>  
+            </div>
+        </div>
+
+    <div class="card">
+            <h5 class="card-header">Featured</h5>
+                <div class="card-body row d-flex flex-row-reverse">
+                    <div class="col-md-6">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                        </p>
+                    </div>
+                <div class="col-md-6">
+                    <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="img-fluid mx-auto d-block" alt="">
+                </div>  
+            </div>
+        </div>
+
+    <div class="card">
+            <h5 class="card-header">Featured</h5>
+                <div class="card-body row">
+                    <div class="col-md-6">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                        </p>
+                    </div>
+                <div class="col-md-6">
+                    <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="img-fluid mx-auto d-block" alt="">
+                </div>  
+            </div>
+        </div>
+
+    <div class="card">
+            <h5 class="card-header">Featured</h5>
+                <div class="card-body row d-flex flex-row-reverse">
+                    <div class="col-md-6">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                            With supporting text below as a natural lead-in to additional content.
+                        </p>
+                    </div>
+                <div class="col-md-6">
+                    <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="img-fluid mx-auto d-block" alt="">
+                </div>  
+            </div>
+        </div>
+
+</div>
+</div>
+
+<div class="container-fluid mt-2 mb-3">
     <div class="row d-flex justify-content-center">
         <?php 
             $args = array( 'post_type' => 'clientes' );
