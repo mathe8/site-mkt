@@ -66,7 +66,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="http://localhost/wordpress/wp-content/uploads/2020/08/wallpaper-gamer.jpg" class="d-block w-100" alt="...">
+      <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="d-block w-100" alt="...">
@@ -97,7 +97,7 @@
                     $loop->the_post();
         ?>
 
-            <div class="card container-fluid">
+            <div class="card card-servicos container-fluid">
                 <h5 class="card-header"><?= the_title() ?></h5>
                 <div class="card-body row">
                     <div class="col-md-6">
@@ -106,10 +106,10 @@
                         <?= the_content() ?>
                         </p>
                     </div>
-                    <div class="col-md-6">
-                        <?= '<div style="width:100% ; background: url('.the_post_thumbnail(array(618,348)).')"></div>' ?>
+                    <div class="col-md-6 card-imagem">
+                        <?= '<div style="background: url('.the_post_thumbnail().')"></div>' ?>
                         <!-- <img src="" class="img-fluid mx-auto d-block" alt=""> -->
-                    </div>  
+                    </div>
                 </div>
             </div>
 

@@ -79,3 +79,14 @@ Text Domain: Swell
 .clientes-card img{
     border-radius: 3.5px 3.5px 0px 0px;
 }
+
+.card-servicos{
+    padding: 0px 0px !important;
+}
+
+.card-imagem img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    object-fit: cover;
+}
