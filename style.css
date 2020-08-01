@@ -75,3 +75,7 @@ Text Domain: Swell
 .box-texto .card:nth-child(1){
     margin-top: -5px;
 }
+
+.clientes-card img{
+    border-radius: 3.5px 3.5px 0px 0px;
+}

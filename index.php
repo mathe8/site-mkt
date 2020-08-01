@@ -175,6 +175,31 @@
 </div>
 </div>
 
+<div class="container-fluid mb-3">
+
+    <div class="row">
+        <div class="col-md-12 bg-primary text-center">
+            <h4 class="p-4">Example heading <span class="badge badge-light">New</span></h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 bg-success text-center">
+            <h4 class="p-4">Example heading <span class="badge badge-light">New</span></h4>
+        </div>
+        <div class="col-md-6 bg-success text-center">
+            <h4 class="p-4">Example heading <span class="badge badge-light">New</span></h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 bg-warning text-center">
+            <h4 class="p-4">Example heading <span class="badge badge-light">New</span></h4>
+        </div>
+    </div>
+
+</div>
+
 <div class="container-fluid mt-2 mb-3">
     <div class="row d-flex justify-content-center">
         <?php 
