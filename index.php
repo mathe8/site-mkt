@@ -98,10 +98,11 @@
         ?>
 
             <div class="card card-servicos container-fluid">
-                <h5 class="card-header"><?= the_title() ?></h5>
-                <div class="card-body row">
+                <h5 class="card-header text-center"><?= the_title() ?></h5>
+                <div class="card-body">
+                    <div class="row">
                     <div class="col-md-6">
-                        <h5 class="card-title"><?= the_title() .' :'?></h5>
+                        <h3 class="card-title"><?= the_title() .' :'?></h3>
                         <p class="card-text">
                         <?= the_content() ?>
                         </p>
@@ -109,6 +110,7 @@
                     <div class="col-md-6 card-imagem">
                         <?= '<div style="background: url('.the_post_thumbnail().')"></div>' ?>
                         <!-- <img src="" class="img-fluid mx-auto d-block" alt=""> -->
+                    </div>
                     </div>
                 </div>
             </div>
@@ -121,26 +123,100 @@
     </div>
 </div>
 
-<div class="container-fluid mb-3">
+            <div class="container-fluid mb-3">
+                
+                <div class="row"><div class="col"><h2 class="text-center">Apresentação</h2></div></div>    
+            
+                <div class="row mb-3 d-flex justify-content-center apresentation">
+                
+                        <div class="card" style="width: 22.5rem;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
+                                    </div>
+                                    <div class="col">
+                                        <h5 class="card-title">Sobre Nós</h5>
+                                        <p class="card-text">Some quick example text <br> quick example. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-    <div class="row">
-        <div class="col-md-12 bg-primary text-center">
-            <h4 class="p-4">Example heading <span class="badge badge-light">New</span></h4>
+                        <div class="card" style="width: 22.5rem;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
+                                    </div>
+                                    <div class="col">
+                                        <h5 class="card-title">Sobre Nós</h5>
+                                        <p class="card-text">Some quick example text <br> quick example. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 22.5rem;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
+                                    </div>
+                                    <div class="col">
+                                        <h5 class="card-title">Sobre Nós</h5>
+                                        <p class="card-text">Some quick example text <br> quick example. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 22.5rem;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
+                                    </div>
+                                    <div class="col">
+                                        <h5 class="card-title">Sobre Nós</h5>
+                                        <p class="card-text">Some quick example text <br> quick example. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+            </div>
+
+    <div class="row mt-5 mb-4">
+        <div class="col-md-6">
+            <div class="container">
+                <div class="d-flex flex-row-reverse">
+                    <img src="https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives.png" class="img-fluid img-teste" width="500px" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card border-none" style="width: 35rem; margin-left: -25px;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="card-title">Sobre Nós</h2>
+                            <p class="card-text">Some quick example text quick example quick text. 
+                                <br> Some quick example text quick example.
+                                <br> Some quick example text quick.
+                            </p>
+                            <button type="button" class="btn btn-outline-primary">Example Explore Expertise >></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-6 bg-success text-center">
-            <h4 class="p-4">Example heading <span class="badge badge-light">New</span></h4>
-        </div>
-        <div class="col-md-6 bg-danger text-center">
-            <h4 class="p-4">Example heading <span class="badge badge-light">New</span></h4>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-12 bg-warning text-center">
-            <h4 class="p-4">Example heading <span class="badge badge-light">New</span></h4>
+        <div class="col-md-12 mt-4 text-center">
+            <h4>Some quick example text quick example.</h4>
+            <p>Some quick example text quick example. <br> Some quick example text. <br> Some quick. <br> </p>
         </div>
     </div>
 
