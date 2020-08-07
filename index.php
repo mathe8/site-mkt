@@ -10,10 +10,20 @@
 
 ?>
 
-<div class="bg-primary p-5">
+<script>
+
+function jump(h){
+    var url = location.href;               //Save down the URL without hash.
+    location.href = "#"+h;                 //Go to the target element.
+    history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
+}
+
+</script>
+
+<div class="bg-primary p-3">
     <div class="justify-content-start">
         <h4 class="display-5">
-            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary mt-2">
                     <ul class="navbar-nav ml-4">
                         <li class="nav-item">
                             <a class="navbar-brand" href="#">
@@ -26,27 +36,27 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Features
+                            <a class="nav-link" onclick="jump('servicos')">Serviços
                                 <div class="d-flex justify-content-center stroke"></div>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Pricing
+                            <a class="nav-link" onclick="jump('apresentacao')">Apresentação
                                 <div class="d-flex justify-content-center stroke"></div>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="" tabindex="-1" aria-disabled="true">Disabled
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" tabindex="-1" aria-disabled="true">Clientes
                                 <div class="d-flex justify-content-center stroke"></div>
                             </a>
-                        </li>
+                        </li> -->
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item" href="#">1</a>
+                                <a class="dropdown-item" href="#">2</a>
+                                <a class="dropdown-item" href="#">3</a>
                             </div>
                         </li>
 
@@ -85,7 +95,7 @@
   </a>
 </div>
 
-<div class="container-fluid mt-2">
+<div class="container-fluid mt-2 mb-3">
     <div class="row p-3 box-texto">
 
         <?php
@@ -97,17 +107,17 @@
                     $loop->the_post();
         ?>
 
-            <div class="card card-servicos container-fluid">
+            <div class="card card-servicos container-fluid" id="servicos">
                 <h5 class="card-header text-center"><?= the_title() ?></h5>
                 <div class="card-body">
-                    <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="card-title"><?= the_title() .' :'?></h3>
-                        <p class="card-text">
-                        <?= the_content() ?>
-                        </p>
+                    <div class="row alinhamento">
+                    <div class="col-md-4 offset-md-2 text-center">
+                            <h1 class="card-title"><?= the_title() ?></h1>
+                            <div class="card-text description">
+                                <?= the_content() ?>
+                            </div>
                     </div>
-                    <div class="col-md-6 card-imagem">
+                    <div class="col-md-4 card-imagem">
                         <?= '<div style="background: url('.the_post_thumbnail().')"></div>' ?>
                         <!-- <img src="" class="img-fluid mx-auto d-block" alt=""> -->
                     </div>
@@ -123,7 +133,7 @@
     </div>
 </div>
 
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-5" id="apresentacao">
                 
                 <div class="row"><div class="col"><h2 class="text-center">Apresentação</h2></div></div>    
             
