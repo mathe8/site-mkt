@@ -123,69 +123,69 @@
     </div>
 </div>
 
-            <div class="container-fluid mb-3">
-                
-                <div class="row"><div class="col"><h2 class="text-center">Apresentação</h2></div></div>    
-            
-                <div class="row mb-3 d-flex justify-content-center apresentation">
-                
-                        <div class="card" style="width: 22.5rem;">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="card-title">Sobre Nós</h5>
-                                        <p class="card-text">Some quick example text <br> quick example. </p>
-                                    </div>
-                                </div>
+    <div class="container-fluid mb-3">
+        
+        <div class="row"><div class="col"><h2 class="text-center">Apresentação</h2></div></div>    
+    
+        <div class="row mb-3 d-flex justify-content-center apresentation">
+        
+                <div class="card" style="width: 22.5rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">Sobre Nós</h5>
+                                <p class="card-text">Some quick example text <br> quick example. </p>
                             </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="card" style="width: 22.5rem;">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="card-title">Sobre Nós</h5>
-                                        <p class="card-text">Some quick example text <br> quick example. </p>
-                                    </div>
-                                </div>
+                <div class="card" style="width: 22.5rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">Sobre Nós</h5>
+                                <p class="card-text">Some quick example text <br> quick example. </p>
                             </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="card" style="width: 22.5rem;">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="card-title">Sobre Nós</h5>
-                                        <p class="card-text">Some quick example text <br> quick example. </p>
-                                    </div>
-                                </div>
+                <div class="card" style="width: 22.5rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">Sobre Nós</h5>
+                                <p class="card-text">Some quick example text <br> quick example. </p>
                             </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="card" style="width: 22.5rem;">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="card-title">Sobre Nós</h5>
-                                        <p class="card-text">Some quick example text <br> quick example. </p>
-                                    </div>
-                                </div>
+                <div class="card" style="width: 22.5rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5><img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""></h5>
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">Sobre Nós</h5>
+                                <p class="card-text">Some quick example text <br> quick example. </p>
                             </div>
                         </div>
+                    </div>
+                </div>
 
-            </div>
+    </div>
 
     <div class="row mt-5 mb-4">
         <div class="col-md-6">
