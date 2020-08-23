@@ -60,6 +60,10 @@ Text Domain: Swell
     padding-left: 25px !important;
 }
 
+.nav-item .nav-link{
+    cursor: pointer !important;
+}
+
 .carousel-inner{
     height: 500px !important;
 }
@@ -101,6 +105,18 @@ Text Domain: Swell
 
 .card-title, .card-header{
     text-transform: capitalize !important;
+}
+
+.description{
+    font-size: 18.5px;
+}
+
+.alinhamento {
+    align-items: center;
+}
+
+.card-text p:first-letter{
+    text-transform: uppercase !important;
 }
 
 .apresentation .card .card-body .row .col{
