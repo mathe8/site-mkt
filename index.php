@@ -21,7 +21,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Home <span class="sr-only">(current)</span>
+                            <a class="nav-link" href="#id1">Home <span class="sr-only">(current)</span>
                                 <div class="d-flex justify-content-center stroke"></div>
                             </a>
                         </li>
@@ -125,7 +125,7 @@
 
     <div class="container-fluid mb-3">
         
-        <div class="row"><div class="col"><h2 class="text-center">Apresentação</h2></div></div>    
+        <div class="row" id="id1"><div class="col" ><h2 class="text-center">Apresentação</h2></div></div>    
     
         <div class="row mb-3 d-flex justify-content-center apresentation">
         
