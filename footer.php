@@ -4,17 +4,17 @@
     
         <div class="row mb-3 d-flex p-5 apresentation" style="margin: 0px 100px;">
         
-                <div class="col-md-4">
+                <div class="col-md-4 contatos">
                     
                     <div class="card" style="width: 22.5rem;">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <h5><img src="https://freesvg.org/img/Mobile-Icon-White-on-Black.png" alt=""/></h5>
+                                    <h5><img src="http://localhost/projetos/wp-swell-mkt/wp-content/uploads/2020/08/fone-de-ouvido.png" alt=""/></h5>
                                 </div>
                                 <div class="col">
                                     <h5 class="card-title">Telefone</h5>
-                                    <p class="card-text">(99) 99999-9999</p>
+                                    <p class="card-text">(85) 99653-8888</p>
                                 </div>
                             </div>
                         </div>
@@ -24,7 +24,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <h5><img src="https://www.freepngimg.com/thumb/email_marketing/62507-icons-marketing-webmail-computer-email-icon.png" alt=""/></h5>
+                                    <h5><img src="http://localhost/projetos/wp-swell-mkt/wp-content/uploads/2020/08/o-email.png" alt=""/></h5>
                                 </div>
                                 <div class="col">
                                     <h5 class="card-title">Email Principal</h5>
@@ -38,11 +38,11 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <h5><img src="https://i.pinimg.com/originals/28/47/b1/2847b1fcbcbdb73d0db303a4b30cef43.png" alt=""/></h5>
+                                    <h5><img src="http://localhost/projetos/wp-swell-mkt/wp-content/uploads/2020/08/whatsapp.png" alt=""/></h5>
                                 </div>
                                 <div class="col">
                                     <h5 class="card-title">WhatsApp</h5>
-                                    <p class="card-text">(99) 99999-9999</p>
+                                    <p class="card-text">(85) 99653-8888</p>
                                 </div>
                             </div>
                         </div>
@@ -86,13 +86,11 @@
                     </div>
 
 
-                    <div class="card" style="width: 22.5rem; margin-top: 20px !important;">
+                    <div class="card redes-sociais" style="width: 22.5rem; margin-top: 20px !important;">
                         <div class="card-body">
                                 <div class="row-md-3 d-inline">
-                                    <img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""/>
-                                    <img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""/>
-                                    <img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""/>
-                                    <img src="https://image.flaticon.com/icons/svg/15/15659.svg" alt=""/>
+                                    <a href=""><img src="http://localhost/projetos/wp-swell-mkt/wp-content/uploads/2020/08/facebook.png" alt=""></a>
+                                    <a href="https://www.instagram.com/swell_mkt/"><img src="http://localhost/projetos/wp-swell-mkt/wp-content/uploads/2020/08/instagram.png" alt=""></a>
                                 </div>
                         </div>
                     </div>

@@ -336,12 +336,20 @@ Text Domain: Swell
     margin-bottom: -40px !important;
 }
 
-.footer-principal .card img{
+.footer-principal .contatos .card img{
     height: 55px;
     width: 55px;
     margin-top: 2.5px;
-    filter: invert(1);
-    background-color: black;
+    background-color: white;
+    padding: 7.5px;
+}
+
+.footer-principal .redes-sociais img{
+    height: 55px;
+    width: 55px;
+    margin-top: 2.5px;
+    background-color: white;
+    padding: 7.5px;
 }
 
 .footer-principal .card .card-title{
