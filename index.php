@@ -15,11 +15,8 @@
 $(document).scroll(function(){
 
     var winheight = $(window).height();
-
     var docheight = $(document).height();
-
     var scrollTop = $(window).scrollTop();
-
     var trackLength = docheight - winheight;
     var pctScrolled = Math.floor(scrollTop/trackLength * 100); // gets percentage scrolled (ie: 80 NaN if tracklength == 0)
     // console.log(pctScrolled);
@@ -134,7 +131,7 @@ function jump(h){
                             <?= the_post_thumbnail([100, 100]); ?>
                     </div>
 
-                    <span class="servico-titulo"><p><?= the_title(); ?></p></span>
+                    <span class="servico-titulo"><p class="titulo-sweep hvr-grow hvr-mouse-on"><?= the_title(); ?></p></span>
   
                 </div>
 
@@ -216,7 +213,27 @@ function jump(h){
         <div class="col-md-6">
             <div class="container">
                 <div class="d-flex flex-row-reverse">
-                    <img src="https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives.png" class="img-fluid img-teste" width="500px" alt="">
+                    
+                    <img src="https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives.png" data-toggle="modal" data-target="#modalCenter" class="img-fluid img-sobre" width="500px" alt="">
+
+                    <div class="modal fade modal-sobre" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives.png" class="img-fluid img-sobre-modal" alt="">
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <h4>Confira as Vangatens</h4>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -230,7 +247,7 @@ function jump(h){
                                 <br> Some quick example text quick example.
                                 <br> Some quick example text quick.
                             </p>
-                            <button type="button" class="btn btn-outline-primary">Example Explore Expertise</button>
+                            <button type="button" data-toggle="modal" data-target="#modalCenter" class="btn btn-outline-primary">Explore Mais</button>
                         </div>
                     </div>
                 </div>

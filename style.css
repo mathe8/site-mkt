@@ -209,12 +209,38 @@ Text Domain: Swell
     border: none !important;
 }
 
-.img-teste{
+.img-sobre{
     -webkit-box-shadow: -2px 10px 41px -25px rgba(0,0,0,0.64);
     -moz-box-shadow: -2px 10px 41px -25px rgba(0,0,0,0.64);
     box-shadow: -2px 10px 41px -25px rgba(0,0,0,0.64);
     margin-right: -20px !important;
     z-index: 1;
+}
+
+.modal-sobre div{
+    background-color: transparent !important;
+    border: none !important;
+    color: white;
+}
+
+.modal-sobre h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.modal-sobre .close{
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 40px;
+}
+
+.modal-sobre .modal-body img{
+    width: 80vw !important;
+}
+
+.img-sobre:hover{
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 /* Serviços */
