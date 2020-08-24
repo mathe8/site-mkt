@@ -8,7 +8,20 @@ Version: 1.0.0
 Text Domain: Swell
 */
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css");
+
 /* comum */
+
+.carousel .carousel-indicators li{
+    height: 7.5px;
+}
+
+.carousel .carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 35px !important;
+    height: 35px !important;
+}
 
 .navbar-principal li a{
     font-size: 25px;
@@ -25,23 +38,33 @@ Text Domain: Swell
    }
    
    .navbar-logo {
-       animation-name: spin;
-       animation-duration: 450ms;
-       animation-iteration-count: 1;
-       animation-timing-function: ease-in;
-       transition: all 450ms ease-in;
-   }
-   
-   @keyframes spin {
-       from {
-           transform:rotate(45deg) scale(0);
-           opacity: 0.5;
-       }
-       to {
-           transform:rotate(0deg) scale(1);
-           opacity: 1;
-       }
-   }
+        -webkit-animation-name: spin;
+        animation-name: spin;
+        -webkit-animation-duration: 450ms;
+        animation-duration: 450ms;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        -webkit-transition: all 450ms ease-in;
+        -o-transition: all 450ms ease-in;
+        transition: all 450ms ease-in;
+    }
+
+    @keyframes spin {
+        from {
+            -webkit-transform:rotate(45deg);
+            transform:rotate(45deg);
+            opacity: 0.5;
+        }
+        to {
+            -webkit-transform:rotate(0deg);
+            transform:rotate(0deg);
+            opacity: 1;
+        }
+    }
    
    /* NAVIGATION */
      nav ul {
@@ -127,20 +150,12 @@ Text Domain: Swell
     height: 500px !important;
 }
 
-.card-body img{
-    border-radius: 5px !important;
-}
-
 .box-texto .card:nth-child(n+2){
     margin-top: 20px;
 }
 
 .box-texto .card:nth-child(1){
     margin-top: -5px;
-}
-
-.clientes-card img{
-    border-radius: 3.5px 3.5px 0px 0px;
 }
 
 .card-servicos{
@@ -164,6 +179,10 @@ Text Domain: Swell
 
 .card-title, .card-header{
     text-transform: capitalize !important;
+}
+
+.card, .btn{
+    border-radius: 0px !important;
 }
 
 .description{
@@ -191,7 +210,6 @@ Text Domain: Swell
 }
 
 .img-teste{
-    border-radius: 10px;
     -webkit-box-shadow: -2px 10px 41px -25px rgba(0,0,0,0.64);
     -moz-box-shadow: -2px 10px 41px -25px rgba(0,0,0,0.64);
     box-shadow: -2px 10px 41px -25px rgba(0,0,0,0.64);
@@ -232,10 +250,14 @@ Text Domain: Swell
 .servico-titulo p{
     line-height: 2.5 !important;
     background-color: rgba(223, 223, 223, 0.2);
-    padding: 5.5px 10px;
-    margin: 10px;
+    padding: 2.5px 10px;
     font-weight: 700;
     color: white;
+    
+    /* margin: 10px; */
+    width: 75%;
+    margin-top: 14.5px !important;
+    margin: auto;
     
     -webkit-box-shadow: -2px 10px 41px -25px rgba(0,0,0,0.64);
     -moz-box-shadow: -2px 10px 41px -25px rgba(0,0,0,0.64);
@@ -266,4 +288,86 @@ Text Domain: Swell
     margin-top: 0px;
     font-size: 22.5px;
     line-height: 1.0;
+}
+
+/*                    */
+/*       FOOTER       */
+/*                    */
+
+:root {
+    --cor-footer:  #222222;
+  }
+  
+
+.footer-principal{
+    background-color: var(--cor-footer);
+}
+
+.footer-principal .card{
+    background-color: var(--cor-footer);
+    color: white;
+    border: none;
+    margin-bottom: -40px !important;
+}
+
+.footer-principal .card img{
+    height: 55px;
+    width: 55px;
+    margin-top: 2.5px;
+    filter: invert(1);
+    background-color: black;
+}
+
+.footer-principal .card .card-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.voltar-topo button{
+    margin: 20px 15px;
+    border-radius: 100%;
+    padding: 12.5px 12.5px;
+}
+
+.voltar-topon:hover button{
+    background-color: darkblue;
+}
+
+.float-wpp{
+	position:fixed;
+	width:65px;
+	height:65px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:35px;
+	box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    z-index:100;
+}
+
+.my-float-wpp{
+	margin-top:16px;
+}
+
+.float-wpp:hover, .my-float-wpp:hover{
+	color: whitesmoke;
+}
+
+.my-float-wpp:active{
+	color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+.hvr-grow:hover{
+    transform: scale(1.05);
+}
+
+.hvr-mouse-on{
+    cursor: pointer;
 }
