@@ -20,52 +20,37 @@ function jump(h){
 
 </script>
 
-<div class="bg-primary p-3">
-    <div class="justify-content-start">
-        <h4 class="display-5">
-            <nav class="navbar navbar-expand-lg navbar-light bg-primary mt-2">
-                    <ul class="navbar-nav ml-4">
-                        <li class="nav-item">
-                            <a class="navbar-brand" href="#">
-                                <img src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">   
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#id1">Home <span class="sr-only">(current)</span>
-                                <div class="d-flex justify-content-center stroke"></div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" onclick="jump('servicos')">Serviços
-                                <div class="d-flex justify-content-center stroke"></div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" onclick="jump('apresentacao')">Apresentação
-                                <div class="d-flex justify-content-center stroke"></div>
-                            </a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" tabindex="-1" aria-disabled="true">Clientes
-                                <div class="d-flex justify-content-center stroke"></div>
-                            </a>
-                        </li> -->
+<div class="container">
+        
+        <div class="container-fluid">
+            
+            <nav class="navbar navbar-expand-lg navbar-light py-1 px-md-1 shift">
+                <a class="navbar-brand" href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" width="45" height="45" class="d-inline-block align-top navbar-logo" alt="logo" loading="lazy"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">1</a>
-                                <a class="dropdown-item" href="#">2</a>
-                                <a class="dropdown-item" href="#">3</a>
-                            </div>
-                        </li>
 
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-principal">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                      </li>
                     </ul>
+
+                </div>
+
             </nav>
-        </h1>
-        <!-- <p class="lead">pies the entire horizontal space of its parent.</p> -->
+
+        </div>
+
     </div>
-</div>
 
 
 <div id="carouselIndicators" class="carousel slide" data-ride="carousel" style="">
@@ -76,13 +61,13 @@ function jump(h){
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="d-block w-100" alt="...">
+      <img src="https://4.bp.blogspot.com/-qAtFQobL7G0/XIJdNxW4aQI/AAAAAAAAG1s/YwlbQmhEp8QGAsKxLqO-bbPOFHjElbqcQCEwYBhgL/s1600/4K%2BLandscape%2BWallpaper%2B54.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="d-block w-100" alt="...">
+      <img src="https://4.bp.blogspot.com/-qAtFQobL7G0/XIJdNxW4aQI/AAAAAAAAG1s/YwlbQmhEp8QGAsKxLqO-bbPOFHjElbqcQCEwYBhgL/s1600/4K%2BLandscape%2BWallpaper%2B54.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://www.dashcontroles.com.br/wp-content/uploads/2018/06/wallpaper-gamer.jpg" class="d-block w-100" alt="...">
+      <img src="https://4.bp.blogspot.com/-qAtFQobL7G0/XIJdNxW4aQI/AAAAAAAAG1s/YwlbQmhEp8QGAsKxLqO-bbPOFHjElbqcQCEwYBhgL/s1600/4K%2BLandscape%2BWallpaper%2B54.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
@@ -95,8 +80,16 @@ function jump(h){
   </a>
 </div>
 
-<div class="container-fluid mt-2 mb-3">
-    <div class="row p-3 box-texto">
+<div class="container-fluid pt-5 pb-5 fundo-servicos">
+
+    <div class="row titulo-servicos">
+        <div class="col-md-12">
+            <h1 class="text-center">Serviços</h1>
+            <p class="text-center subtitulo">Conheça os Serviços e Especilidades Que <br> Temos a Oferecer Para Sua Empresa.</p>
+        </div>
+    </div>
+
+    <div class="row p-4 box-texto">
 
         <?php
             $args = ['post_type' => 'servicos' ];
@@ -106,24 +99,15 @@ function jump(h){
                 while($loop->have_posts()){
                     $loop->the_post();
         ?>
+                <div class="col-md-3 text-center servico-card">
 
-            <div class="card card-servicos container-fluid" id="servicos">
-                <h5 class="card-header text-center"><?= the_title() ?></h5>
-                <div class="card-body">
-                    <div class="row alinhamento">
-                    <div class="col-md-4 offset-md-2 text-center">
-                            <h1 class="card-title"><?= the_title() ?></h1>
-                            <div class="card-text description">
-                                <?= the_content() ?>
-                            </div>
+                    <div class="servico-img">
+                            <?= the_post_thumbnail([100, 100]); ?>
                     </div>
-                    <div class="col-md-4 card-imagem">
-                        <?= '<div style="background: url('.the_post_thumbnail().')"></div>' ?>
-                        <!-- <img src="" class="img-fluid mx-auto d-block" alt=""> -->
-                    </div>
-                    </div>
+
+                    <span class="servico-titulo"><p><?= the_title(); ?></p></span>
+  
                 </div>
-            </div>
 
         <?php
                 } //end while
@@ -134,7 +118,7 @@ function jump(h){
 </div>
 
 
-    <div class="container-fluid mb-3">
+    <div class="container-fluid mb-3 mt-5">
         
         <div class="row" id="id1"><div class="col" ><h2 class="text-center">Apresentação</h2></div></div>    
     
