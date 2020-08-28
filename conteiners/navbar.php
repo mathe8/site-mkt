@@ -11,10 +11,10 @@
                         <a class="nav-link" href="">Home<span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="$('html,body').animate({scrollTop: $('#servicos').offset().top-70},'slow');return false;">Serviços</a>
+                        <a class="nav-link" href="#" onclick="$('html,body').animate({scrollTop: $('#servicos').offset().top-10},'slow');return false;">Serviços</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="$('html,body').animate({scrollTop: $('#sobre').offset().top-30},'slow');return false;">Sobre</a>
+                        <a class="nav-link" href="#" onclick="$('html,body').animate({scrollTop: $('#sobre').offset().top},'slow');return false;">Sobre</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="" onclick="$('html,body').animate({scrollTop: $('#contato').offset().top},'slow');return false;">Contato</a>

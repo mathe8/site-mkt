@@ -1,4 +1,4 @@
-<?php require_once('header.php');?>
+<?php require_once('header.php');?> 
 
 <script>
 
@@ -35,15 +35,16 @@ function jump(h){
 
 <?php require 'conteiners/navbar.php';?>
 
-<?php require 'conteiners/carrocel.php'; ?>
+<?php require 'conteiners/carousel.php'; ?>
 
-<?php require 'conteiners/servicos.php'?>
+<?php require 'conteiners/services.php'?>
 
-<?php require 'conteiners/sobre.php'; ?>
+<?php require 'conteiners/about.php'; ?>
 
-<?php require 'conteiners/clientes.php';?>
+<?php require 'conteiners/clients.php';?>
 
 <a href="https://api.whatsapp.com/" class="float-wpp" id="float-wpp" target="_blank">
     <i class="fa fa-whatsapp my-float-wpp"></i>
 </a>
+
 <?php require_once('footer.php'); ?>
