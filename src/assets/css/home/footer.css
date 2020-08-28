@@ -1,0 +1,41 @@
+.footer-principal{
+    background-color: var(--cor-footer);
+}
+
+.footer-principal .card{
+    background-color: var(--cor-footer);
+    color: white;
+    border: none;
+    margin-bottom: -40px !important;
+}
+
+.footer-principal .contatos .card img{
+    height: 55px;
+    width: 55px;
+    margin-top: 2.5px;
+    background-color: white;
+    padding: 7.5px;
+}
+
+.footer-principal .redes-sociais img{
+    height: 55px;
+    width: 55px;
+    margin-top: 2.5px;
+    background-color: white;
+    padding: 7.5px;
+}
+
+.footer-principal .card .card-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.voltar-topo button{
+    margin: 20px 15px;
+    border-radius: 100%;
+    padding: 12.5px 12.5px;
+}
+
+.voltar-topon:hover button{
+    background-color: darkblue;
+}

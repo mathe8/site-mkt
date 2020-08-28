@@ -1,0 +1,58 @@
+/*
+Theme Name: Swell Marketing Digital
+Theme URI: https://www.swellmkd.com.br
+Author: Leonardo Monteiro Muniz
+Author URI: https://wordpress.org/
+Description: Swell Marketing Digital, uma forma simples de alavancar sua empresa!
+Version: 1.0.0
+Text Domain: Swell
+*/
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css");
+
+/* comum */
+
+:root {
+    --cor-footer:  #222222;
+}
+
+.float-wpp{
+	position:fixed;
+	width:65px;
+	height:65px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:35px;
+	box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    z-index:100;
+}
+
+.my-float-wpp{
+	margin-top:16px;
+}
+
+.float-wpp:hover, .my-float-wpp:hover{
+	color: whitesmoke;
+}
+
+.my-float-wpp:active{
+	color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+.hvr-grow:hover{
+    transform: scale(1.05);
+}
+
+.hvr-mouse-on{
+    cursor: pointer;
+}

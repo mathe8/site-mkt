@@ -1,0 +1,12 @@
+.carousel .carousel-indicators li{
+    height: 7.5px;
+}
+
+.carousel .carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.carousel-inner{
+    height: 500px !important;
+}

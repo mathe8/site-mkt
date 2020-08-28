@@ -1,0 +1,122 @@
+.navbar-principal li a{
+    font-size: 25px;
+   }
+   
+   .navbar-principal li{
+       padding: 10px;
+   }
+   
+   .navbar-principal .active a{
+       /* outline: 1px solid grey; */
+       border: 1.5px solid #553A7D;
+       color: #242424 !important;
+   }
+   
+   .navbar-logo {
+        -webkit-animation-name: spin;
+        animation-name: spin;
+        -webkit-animation-duration: 450ms;
+        animation-duration: 450ms;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        -webkit-transition: all 450ms ease-in;
+        -o-transition: all 450ms ease-in;
+        transition: all 450ms ease-in;
+    }
+
+    @keyframes spin {
+        from {
+            -webkit-transform:rotate(45deg);
+            transform:rotate(45deg);
+            opacity: 0.5;
+        }
+        to {
+            -webkit-transform:rotate(0deg);
+            transform:rotate(0deg);
+            opacity: 1;
+        }
+    }
+   
+   /* NAVIGATION */
+     nav ul {
+       list-style: none;
+       text-align: center;
+     }
+     nav ul li {
+       display: inline-block;
+     }
+     nav ul li a {
+       display: block;
+       text-transform: uppercase;
+       font-weight: bold;
+       margin: 0 0px;
+       padding: 5px 15px !important;
+     }
+     nav ul li a,
+     nav ul li a:after,
+     nav ul li a:before {
+       transition: all .5s;
+     }
+     nav ul li a:hover {
+       color: white !important;
+   }
+   
+   .navbar-principal .active a:hover {
+       border: 1.5px solid #553A7D !important;
+       color: white !important;
+   }
+   
+   /* SHIFT ANIMATION */
+   .shift div ul li a {
+       position:relative;
+       z-index: 1;
+     }
+     .shift div ul li a:hover {
+       color: #553A7D;
+     }
+     .shift div ul li a:after {
+       display: block;
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       margin: auto;
+       width: 100%;
+       height: 1px;
+       content: '.';
+       color: transparent;
+       background: #553A7D;
+       visibility: none;
+       opacity: 0;
+       z-index: -1;
+     }
+     .shift div ul li a:hover:after {
+       opacity: 1;
+       visibility: visible;
+       height: 100%;
+     }
+
+.dropdown-menu li:hover {
+    visibility: visible;
+}
+  
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown .dropdown-menu a:hover {
+    background-color: #313131; 
+}
+
+.dropdown .dropdown-menu {
+    background-color: #007bff;
+}
+
+.dropdown .dropdown-menu .dropdown-divider {
+    border: 1px solid #007bff !important;
+}
